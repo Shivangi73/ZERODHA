@@ -20,34 +20,34 @@ function Footer() {
                      <br />
                     <a href="/" className="mb-5 text-muted text-decoration-none">Pricing</a>
                       <br />
-                     <a href="" className=" mb-5 text-muted text-decoration-none" >Referral programme</a>
                       <br />
                      <a href="" className=" mb-5 text-muted text-decoration-none" >Careers</a>
                       <br />
-                     <a href="" className=" mb-5 text-muted text-decoration-none" >Zerodha.Tech</a>
+                     <a href="/" className=" mb-5 text-muted text-decoration-none" >Zerodha.Tech</a>
+                     <a href="/" className=" mb-5 text-muted text-decoration-none" >Referral programme</a>
                       <br />
-                     <a href="" className=" mb-5 text-muted text-decoration-none" >Press & media</a>
+                     <a href="/" className=" mb-5 text-muted text-decoration-none" >Press & media</a>
                       <br />
-                     <a href="" className=" mb-5 text-muted text-decoration-none" >Zerodha cares (CSR)</a>
+                     <a href="/" className=" mb-5 text-muted text-decoration-none" >Zerodha cares (CSR)</a>
 
                   </div>
                   <div className='col'>
                      <p>
                         Support
                     </p>
-                    <a href="" className=" mb-5 text-muted text-decoration-none">Contact</a>
+                    <a href="/" className=" mb-5 text-muted text-decoration-none">Contact</a>
                      <br />
-                    <a href="" className=" mb-5 text-muted text-decoration-none">Support Portal</a>
+                    <a href="/" className=" mb-5 text-muted text-decoration-none">Support Portal</a>
                      <br />
-                     <a href="" className=" mb-5 text-muted text-decoration-none">Z-connect blog</a>
+                     <a href="/" className=" mb-5 text-muted text-decoration-none">Z-connect blog</a>
                       <br />
-                     <a href="" className=" mb-5 text-muted text-decoration-none">List of charges</a>
+                     <a href="/" className=" mb-5 text-muted text-decoration-none">List of charges</a>
                       <br />
-                     <a href="" className=" mb-5 text-muted text-decoration-none">Careers</a>
+                     <a href="/" className=" mb-5 text-muted text-decoration-none">Careers</a>
                       <br />
-                     <a href="" className=" mb-5 text-muted text-decoration-none">Zerodha.Tech</a>
+                     <a href="/" className=" mb-5 text-muted text-decoration-none">Zerodha.Tech</a>
                       <br />
-                     <a href="" className=" mb-5 text-muted text-decoration-none">Downloads and resources</a>
+                     <a href="/" className=" mb-5 text-muted text-decoration-none">Downloads and resources</a>
                       <br />
                      
                   </div>
@@ -55,11 +55,11 @@ function Footer() {
                      <p>
                         Account
                     </p>
-                     <a href="" className=" mb-5 text-muted text-decoration-none">Open an account</a>
+                     <a href="/" className=" mb-5 text-muted text-decoration-none">Open an account</a>
                      <br />
-                    <a href="" className=" mb-5 text-muted text-decoration-none">Fund Transfer</a>
+                    <a href="/" className=" mb-5 text-muted text-decoration-none">Fund Transfer</a>
                      <br />
-                     <a href="" className=" mb-5 text-muted text-decoration-none">60 day challenge</a>
+                     <a href="/" className=" mb-5 text-muted text-decoration-none">60 day challenge</a>
                       
                   </div>
                  </div>
