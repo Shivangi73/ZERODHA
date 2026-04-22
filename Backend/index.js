@@ -23,25 +23,27 @@ app.get("/", (req, res) => {
 
 app.get("/allHoldings", async (req, res) => {
   try {
-    let allHoldings = await HoldingsModel.find({});
+    const allHoldings = await HoldingsModel.find({});
     res.json(allHoldings);
   } catch (error) {
+    console.error("Error fetching holdings:", error.message);
     res.status(500).json({ error: "Failed to fetch holdings" });
   }
 });
 
 app.get("/allPositions", async (req, res) => {
   try {
-    let allPositions = await PositionsModel.find({});
+    const allPositions = await PositionsModel.find({});
     res.json(allPositions);
   } catch (error) {
+    console.error("Error fetching positions:", error.message);
     res.status(500).json({ error: "Failed to fetch positions" });
   }
 });
 
 app.post("/newOrder", async (req, res) => {
   try {
-    let newOrder = new OrdersModel({
+    const newOrder = new OrdersModel({
       name: req.body.name,
       qty: req.body.qty,
       price: req.body.price,
@@ -51,9 +53,12 @@ app.post("/newOrder", async (req, res) => {
     await newOrder.save();
     res.send("Order saved!");
   } catch (error) {
+    console.error("Error saving order:", error.message);
     res.status(500).json({ error: "Failed to save order" });
   }
 });
+
+console.log("MONGO URL exists:", !!uri);
 
 mongoose
   .connect(uri)
@@ -65,5 +70,6 @@ mongoose
     });
   })
   .catch((error) => {
-    console.error("MongoDB connection error:", error);
-  });
+    console.error("MongoDB connection error:", error.message);
+    console.error(error);
+  }
